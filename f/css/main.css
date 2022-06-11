@@ -1,0 +1,132 @@
+/* body { */
+    /* box-sizing: border-box; */
+/* } */
+ .abc {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(108, 34, 34);
+ }
+
+
+section {
+    display: block;
+    width: 1200px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.section__two {
+    background-color: rgb(8, 99, 93);
+    display: block;
+    /* margin-bottom: 20px; */
+
+}
+
+.logo {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+
+
+}
+
+.login {
+    margin-left: 1300px;
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+
+.register {
+    text-decoration: none;
+    margin-left: 1300px;
+    display: block;
+    color: white;
+
+}
+
+/************************* секція 1 *************************/
+.section__one {
+    display: block;
+    background-color: rgb(8, 7, 7);
+    color: white;
+
+
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: -15px;
+    /* width: 1200px */
+
+}
+
+.list__item {
+    width: 240px;
+
+    margin: 15px;
+}
+
+.list__title {
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 1.17;
+
+
+}
+
+.list__text {
+    margin: 0;
+}
+
+/********************** footer **********************/
+.footer {
+margin-left: auto;
+margin-right: auto;
+width: 1230px;
+    
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    /* width: 1400px; */
+/* 
+    margin-left: auto;
+    margin-right: auto; */
+
+    margin-bottom: 20px;
+
+    background-color: red;
+
+}
+
+.footer__item {
+    width: 250px;
+
+    margin: 30px;
+}
+
+.footer__title {
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 1.17;
+
+}
+
+.footer__text {
+    margin: 0;
+}

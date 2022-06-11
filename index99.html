@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form class="form" action="#" method="get">
+
+        
+            <p>Імя</p>
+            <input placeholder="Імя" tabindex="1" name="username" type="text">
+        
+        
+            <p class="p">Пароль</p>
+            <input placeholder="Пароль" tabindex="2" name="userpass" type="password">
+        
+        <div class="p">
+            <p>Номер телефона</p>
+            <input name="userphone" tabindex="3" type="tel">
+
+        </div>
+
+        <div>
+            <p>Стать</p>
+            <form>
+                <input tabindex="4" type="radio" name="gender" id="1" value="male">
+                <label for="1" lang="ua">Чоловік</label>
+            </form>
+
+            <div>
+
+                <label>
+                    Жінка
+                    <input tabindex="4" checked type="radio" name="gender" value="female">
+                    
+                </label>
+            </div>
+
+        </div>
+        <div>
+            <p>Майно</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes"> Велик
+            </div>
+            <div>
+                <input tabindex="6" disabled type="checkbox" name="car" value="yes"> Машина
+            </div>
+            <div>
+                <input tabindex="7" type="checkbox" name="house" value="yes"> Дім
+            </div>
+
+        </div>
+
+        <div>
+            <p>Інформація</p>
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+
+        <div>
+            <p>Прикріпити фото</p>
+            <input tabindex="9" type="file">
+        </div>
+
+        <div">
+            <p>Улюблений колір</p>
+            <select tabindex="10" name="color">
+                <option value="black">чорний</option>
+                <option selected value="red">червоний</option>
+                <option value="white">білий</option>
+            </select>
+            </div>
+
+            <div>
+                <p>Дії</p>
+                <button tabindex="11" type="submit">Відправити</button>
+                <button tabindex="12" type="reset">Очистити</button>
+            </div>
+    </form>
+
+</body>
+
+</html>
